@@ -1,1 +1,25 @@
-// Mixins Here
+.flex (@display, @direction, @wrap) {
+    display: @display;
+    flex-direction: @direction;
+    flex-wrap: @wrap;
+    }
+
+.center () {
+    justify-content: center;
+    align-items: center;
+}    
+
+.hundo () {
+ width: 100%;
+}
+
+.buttonmi (@bg-color, @color) {
+  background-color: @bg-color;
+  border-radius: 5px;
+  color: @color;
+  padding: 8px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 2rem;
+}
