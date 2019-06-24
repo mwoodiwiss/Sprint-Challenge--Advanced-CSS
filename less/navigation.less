@@ -1,1 +1,44 @@
-// Navigation code here
+.header {
+    .flex (flex, row, wrap);
+    .hundo();
+
+
+    // @media @mobile {
+    //     flex-wrap: wrap;
+    //     justify-content: center;
+    // }
+    
+    .header-text {
+        .flex(flex, row, nowrap);
+        .center();
+        margin-top: 15px;
+        .hundo();
+        font-size: 4rem;
+
+        // @media @mobile {
+        //     text-align: center;
+        //     .hundo();
+        //     justify-content: center;
+        // }
+    }
+
+    .menu {
+        .flex(flex, row, nowrap);
+        .center();
+        .hundo();
+
+        
+        a {
+            text-decoration: none;
+            color: black;        
+            font-size: 1.7rem;
+            padding: 15px;
+
+            // @media @mobile {
+            //     justify-content: center;
+            //     margin: 0 20px;
+            // }
+    
+        }
+    }
+}
